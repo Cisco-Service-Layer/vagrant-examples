@@ -1,2 +1,2 @@
-# vagrant-examples
-Different topology examples for vagrant setups with IOS-XR and other boxes
+# vagrant-xrdocs
+Different Vagrant topology/environment examples for tutorials on <https://xrdocs.github.io>
