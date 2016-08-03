@@ -1,2 +1,2 @@
-# vagrant-xrdocs
-Different Vagrant topology/environment examples for tutorials on <https://xrdocs.github.io>
+# vagrant-examples
+Different Vagrant topology/environment examples for tutorials on xr-cocoflix.herokuapp.com
