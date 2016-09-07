@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   
 
    config.vm.define "rtr" do |node|
-      node.vm.box =  "thinxr-aug3"
+      node.vm.box =  "IOS-XRv"
 
       node.vm.network "forwarded_port", guest: 57344, host: 57344 
       # gig0/0/0 connected to "link1"
