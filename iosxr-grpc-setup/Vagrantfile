@@ -32,12 +32,17 @@ Vagrant.configure(2) do |config|
 
  
     config.vm.define "devbox" do |node|
-      node.vm.box =  "ciscoxr/grpc-ubuntu-14.04"
+      node.vm.box =  "bento/ubuntu-16.04"
 
       # eth1 connected to link1
       # auto_config is supported for an ubuntu instance
 
       node.vm.network :private_network, virtualbox__intnet: "link1", ip: "11.1.1.20"
+
+      node.vm.provision "shell" do |s|
+          s.path =  "scripts/install_grpc.sh"
+      end
+
 
     end
 
